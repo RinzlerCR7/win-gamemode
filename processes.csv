@@ -1,0 +1,22 @@
+﻿Name,Kill Process,Process Name,Function
+ApplicationFrameHost.exe,Y,Application Frame Host,It's generally not recommended to turn off Application Frame Host; as it's a critical component for managing UWP apps on Windows 10. Disabling it may lead to an unstable user experience or prevent UWP apps from functioning correctly.
+BridgeCommunication.exe,Y,BridgeCommunication.exe,
+dllhost.exe,N,COM Surrogate,-
+CsSystemTray_*,Y,CrowdStrike Falcon System Tray Application,Protects from malware & cyber attacks (allegedly). They themselves caused the biggest cyber attack I've ever seen in my life.
+DEMAgentProcess.exe,Y,DEMAgentProcess.exe,-
+inSyncAgent.exe,Y,inSyncAgent.exe,
+inSync.exe,Y,inSync.exe,
+AggregatorHost.exe,Y,Microsoft (R) Aggregator Host,It's a microsoft process but other than that there isn't much information.
+MoUsoCoreWorker.exe,Y,MoUSO Core Worker Process,Prepares for windows update
+mtr.exe,Y,mtr.exe,Monthly malware detector for windows
+ProviderHost.exe,N,Provider Host (32 bit),
+SCNotification.exe,Y,,
+SECOCL.exe,N,,Audio driver fixes
+tcping.exe,Y,,Transfer control protocol. Internet stuff; keep it ON when using internet.
+curl.exe,Y,,Internet stuff; keep it ON when using internet.
+TabTip.exe,Y,,
+UserOOBEBroker.exe,Y,,
+fontdrvhost.exe,N,,User font driver. Break the UI & a lot of fonts disappear.
+msedgewebview2.exe,Y,,Needed for a lot of windows internet components.
+SecurityHealthSystray.exe,Y,,
+ai.exe,Y,,You see AI; kill it.
