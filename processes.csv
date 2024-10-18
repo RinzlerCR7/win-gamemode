@@ -15,7 +15,7 @@ SECOCL.exe,N,,Audio driver fixes
 tcping.exe,Y,,Transfer control protocol. Internet stuff; keep it ON when using internet.
 curl.exe,Y,,Internet stuff; keep it ON when using internet.
 TabTip.exe,Y,,
-UserOOBEBroker.exe,Y,,
+UserOOBEBroker.exe,Y,,Microsoft's out of the box experience.
 fontdrvhost.exe,N,,User font driver. Break the UI & a lot of fonts disappear.
 msedgewebview2.exe,Y,,Needed for a lot of windows internet components.
 SecurityHealthSystray.exe,Y,,
