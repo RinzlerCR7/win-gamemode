@@ -1,5 +1,6 @@
 ﻿Service Name,Stop Service,Name,Startup Type (Default),Function
 AdobeARMservice,Y,Adobe Acrobat Update Service,,Adobe update
+LightingService,Y,ASUS AURA SYNC lighting service,Automatic,
 HPAppHelperCap,Y,HP App Helper HSA Service,,
 ctes,Y,,,
 CtesHostService,Y,,,
@@ -34,12 +35,13 @@ QualysAgent,Y,,,
 ctrarsvc,Y,,,
 rpcnet,Y,rpcnet,,
 SECOMNService,N,Sound Research SECOMN Service,,
-Spooler,Y,Print Spooler,,
+Spooler,Y,Print Spooler,Automatic,Spools print jobs & handles interaction with the printer.
 HPSysInfoCap,Y,,,
 vds,Y,,,
 ZoomCptService,Y,Zoom Sharing Service,,
 WSLService,Y,WSL Service,,
-edgeupdate,N,Microsoft Edge Update Service (edgeupdate),Automatic (Delayed Start),
-edgeupdatem,N,Microsoft Edge Update Service (edgeupdatem),Manual,
+LGHUBUpdaterService,Y,LGHUB Updater Service,Automatic,
+edgeupdate,Y,Microsoft Edge Update Service (edgeupdate),Automatic (Delayed Start),
+edgeupdatem,Y,Microsoft Edge Update Service (edgeupdatem),Manual,
 msiserver,Y,Windows installer,,
 Nexthink Service,Y,Nexthink Collecter Service,,
