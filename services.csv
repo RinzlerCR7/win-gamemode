@@ -1,43 +1,45 @@
-﻿Name,Stop Service,Service Name,Function
-AdobeARMservice,Y,Adobe Acrobat Update Service,Adobe update
-HPAppHelperCap,Y,HP App Helper HSA Service,
-ctes,Y,,
-CtesHostService,Y,,
-CtesDurService,Y,,
-rpchdp,Y,,Telemetry
-DBP1.exe,Y,,
-Access Experience,Y,Access Experience,
-Access Experience Update Service,Y,Access Experience Update Service,
-HPDiagsCap,Y,,Telemetry
-FMAPOService,N,Fortemedia APO Control Service,Fortemedia audio processing object is a Voice Interface Portal for the mobile communication space by providing Far Field Pickup & noise suppression using Small Array Microphone voice processing technologies.
-Sherpa Connector Monitor Service,Y,Sherpa Connector Monitor Service,
-Sherpa File Agent Service,Y,Sherpa File Agent Service,
-Sherpa MAPI Agent Service,Y,Sherpa MAPI Agent Service,
-Sherpa Connector Service,Y,Sherpa Connector Service,
-CcmExec,Y,,
-PanGPS,Y,,
-HotKeyServiceUWP,Y,,Disables special func keys
-HPAudioAnalytics,Y,,Telemetry
-HpTouchpointAnalyticsService,Y,,Telemetry
-hpsvcsscan,Y,,HP Services installer
-inSyncCPHService,Y,,
-ClickToRunSvc,Y,,
-uhssvc,Y,,
-WSearch,Y,,
-lpasvc,Y,,
-lppsvc,Y,,
-IntuneManagementExtension,Y,,
-HPNetworkCap,Y,,
-Nexthink Coordinator,Y,Nexthink Coordinator,
-Nexthink CSSU Service,Y,Nexthink CSSU Service,
-QualysAgent,Y,,
-ctrarsvc,Y,,
-rpcnet,Y,rpcnet,
-SECOMNService,N,Sound Research SECOMN Service,
-Spooler,Y,Print Spooler,
-HPSysInfoCap,Y,,
-vds,Y,,
-ZoomCptService,Y,Zoom Sharing Service,
-WSLService,Y,WSL Service,
-msiserver,Y,Windows installer,
-Nexthink Service,Y,Nexthink Collecter Service,
+﻿Service Name,Stop Service,Name,Startup Type (Default),Function
+AdobeARMservice,Y,Adobe Acrobat Update Service,,Adobe update
+HPAppHelperCap,Y,HP App Helper HSA Service,,
+ctes,Y,,,
+CtesHostService,Y,,,
+CtesDurService,Y,,,
+rpchdp,Y,,,Telemetry
+DBP1.exe,Y,,,
+Access Experience,Y,Access Experience,,
+Access Experience Update Service,Y,Access Experience Update Service,,
+HPDiagsCap,Y,,,Telemetry
+FMAPOService,N,Fortemedia APO Control Service,,Fortemedia audio processing object is a Voice Interface Portal for the mobile communication space by providing Far Field Pickup & noise suppression using Small Array Microphone voice processing technologies.
+Sherpa Connector Monitor Service,Y,Sherpa Connector Monitor Service,,
+Sherpa File Agent Service,Y,Sherpa File Agent Service,,
+Sherpa MAPI Agent Service,Y,Sherpa MAPI Agent Service,,
+Sherpa Connector Service,Y,Sherpa Connector Service,,
+CcmExec,Y,,,
+PanGPS,Y,,,
+HotKeyServiceUWP,Y,,,Disables special func keys
+HPAudioAnalytics,Y,,,Telemetry
+HpTouchpointAnalyticsService,Y,,,Telemetry
+hpsvcsscan,Y,,,HP Services installer
+inSyncCPHService,Y,,,
+ClickToRunSvc,Y,,,
+uhssvc,Y,,,
+WSearch,Y,,,
+lpasvc,Y,,,
+lppsvc,Y,,,
+IntuneManagementExtension,Y,,,
+HPNetworkCap,Y,,,
+Nexthink Coordinator,Y,Nexthink Coordinator,,
+Nexthink CSSU Service,Y,Nexthink CSSU Service,,
+QualysAgent,Y,,,
+ctrarsvc,Y,,,
+rpcnet,Y,rpcnet,,
+SECOMNService,N,Sound Research SECOMN Service,,
+Spooler,Y,Print Spooler,,
+HPSysInfoCap,Y,,,
+vds,Y,,,
+ZoomCptService,Y,Zoom Sharing Service,,
+WSLService,Y,WSL Service,,
+edgeupdate,N,Microsoft Edge Update Service (edgeupdate),Automatic (Delayed Start),
+edgeupdatem,N,Microsoft Edge Update Service (edgeupdatem),Manual,
+msiserver,Y,Windows installer,,
+Nexthink Service,Y,Nexthink Collecter Service,,
