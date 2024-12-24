@@ -24,7 +24,7 @@ hpsvcsscan,Y,,,HP Services installer
 inSyncCPHService,Y,,,
 ClickToRunSvc,Y,,,
 uhssvc,Y,,,
-WSearch,Y,,,
+WSearch,Y,Windows Search,Automatic (Delayed Start),
 lpasvc,Y,,,
 lppsvc,Y,,,
 IntuneManagementExtension,Y,,,
